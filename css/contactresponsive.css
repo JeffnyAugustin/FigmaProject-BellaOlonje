@@ -1,0 +1,247 @@
+/* responsive Mobile */
+
+@media screen and (max-width: 600px) {
+
+
+    .navbar {
+    
+        display: none;
+
+    }
+      .hamburgermenu {
+        
+        display: flex;
+        flex-direction: column;
+
+    }
+      label[for="toggle"] {
+      
+        top: 12px;
+        right: 0;
+      }
+
+
+    .testons {
+        display: flex;
+        flex-direction: row;
+      }
+      
+      
+      .hamburgericon {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: flex-end;
+        justify-content: flex-start;
+        align-items: stretch;
+      }
+      
+
+    .top {
+        height: 400px;
+    }
+
+    h1 {
+        margin-top: 40px;
+      }
+
+      .deliver {
+
+        display: flex;
+        flex-direction: column;
+        margin-left: 7vw;
+
+    }
+
+
+      .nom_prenom {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+
+    }
+      .email-tel {
+       display: flex;
+       flex-direction: column;
+        gap: 28px;
+
+    }
+     
+      .contactus {
+        
+        margin-left: 8vw;
+
+    }
+      .object #idk {
+       
+        width: 90%;
+    }
+      textarea {
+    
+        width: 90%;
+        margin-bottom: 8vw;
+        margin-top: 2vw;
+        margin-left: 1vw;
+        padding-top: 0vw;
+        padding-left: 0vw;
+    }
+
+    .maps {
+        display: flex;
+        padding-left: 5vw;
+        width: 90%;
+        margin-left: -5vw;
+        flex-direction: column;
+    }
+      
+
+      
+      .sendbtn {
+        margin: 7vw 6vw 17vw 0vw;
+        padding: 4vw 0vw 17vw 1vw;
+    }
+      
+
+    .uploadfile {
+        justify-content: center;
+      }
+
+
+    }
+
+
+
+
+
+
+
+/* Responsive Tablette */
+
+
+@media screen and (max-width: 992px) {
+
+    .top {
+
+        height: 500px;
+        margin-bottom: 2vw;
+    }
+      .titlecontent {
+        padding: 8vw;
+    }
+      .deliver {
+  
+        gap: 36px;
+        margin-left: 6vw;
+        margin-top: 5vw;
+        padding-bottom: 5vw;
+        display: flex;
+        flex-direction: column;
+    }
+      .nom_prenom {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+       
+    }
+      .email-tel {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    
+   
+    }
+      .contactus {
+        
+        margin-left: 5vw;
+
+    }
+      .object #idk {
+    
+        width: 95%;
+      
+        margin-bottom: 2vw;
+       
+        padding: 0vw 2vw;
+
+    }
+      textarea {
+        width: 94%;
+        margin-bottom: 4vw;
+        margin-top: 1vw;
+        margin-left: 0vw;
+        padding-top: 2vw;
+        padding-left: 1vw;
+        font-size: 20px;
+
+
+    }
+      .sendbtn {
+     
+        margin: 5vw 0vw 5vw 11vw;
+        padding: 3vw 11vw 14vw 15vw;
+      }
+
+
+
+
+}
+
+
+
+/* Responsive PC */
+
+@media screen and (min-width: 1025px) {
+
+    .top {
+        margin-bottom: 24px;
+    }
+
+      .deliver {
+
+        gap: 20px;
+        padding-bottom: 53px;
+
+    }
+
+      .nom_prenom {
+        gap: 186px;
+
+    }
+
+      .email-tel {
+      
+        gap: 186px;
+
+    }
+      .contactus {
+    
+        margin-left: 49px;
+        margin-bottom: 44px;
+
+    }
+
+      .object #idk {
+       
+        height: 55px;
+        font-size: 20px;
+    }
+      
+      textarea {
+    
+        padding-top: 34px;
+        font-size: 20px;
+    }
+
+      .sendbtn {
+       
+        padding: 50px 111px 63px 0px;
+      }
+
+
+
+
+
+
+
+
+}

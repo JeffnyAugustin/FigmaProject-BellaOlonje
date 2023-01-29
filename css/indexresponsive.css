@@ -1,0 +1,186 @@
+
+/* Responsive Mobile */
+
+@media screen and (max-width: 600px) {
+
+  .logo_header {
+   
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: -70px;
+    flex-wrap: nowrap;
+    align-content: space-between;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .hamburgermenu {
+    display: flex;
+  }
+
+  label[for="toggle"] {
+   
+    top: 17px;
+    right: 0px;
+    font-size: 34px;
+  }
+
+  .testons {
+  
+    display: flex;
+    flex-direction: row;
+  }
+
+  .top {
+    height: 437px;
+
+  }
+
+  .containercards {
+
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 4px;
+    margin-right: 13px;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: space-around;
+
+  }
+
+  .border {
+  
+    padding-top: 30px;
+    padding-left: 40px;
+    height: 424px;
+    padding-right: 30px;
+    font-size: 15px;
+    width: 66%;
+    flex-wrap: wrap;
+  }
+  
+ 
+  .cardtext {
+    font-size: 30px;
+  }
+  
+  
+  p {
+    font-size: 25px;
+
+  }
+
+  hr {
+   
+    width: 62%;
+    margin: 59px 455px 29px 115px;
+  }
+
+  .paragraphe {
+
+    font-size: 22px;
+    margin-left: 4px;
+    margin-right: 34px;
+
+  }
+
+  footer {
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: stretch;
+    margin-left: -4px;
+  }
+
+  .footerelement {
+    min-height: 360px;
+  }
+
+}
+
+
+/* Responsive Tablette */
+
+@media screen and (max-width: 992px) {
+    
+ 
+  .top {
+    height: 500px;
+  }
+
+  .product {
+    padding: 31px;
+    margin-bottom: 54px;
+    font-size: 40px;
+
+  }
+
+  .containercards {
+    justify-content: space-between;
+    line-height: 4em;
+    gap: 76px;
+    margin-left: 39px;
+    margin-right: 40px;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+  }
+
+  .cardtext {
+    font-size: 15px;
+  }
+  
+  p {
+   
+    font-size: 27px;
+
+  }
+
+  .paragraphe {
+  
+    font-size: 29px;
+    padding-top: 27px;
+    padding-bottom: 74px;
+    margin-right: 32px;
+    margin-left: 20px;
+
+  }
+
+  .solved {
+
+    font-size: 30px;
+    margin-left: 20px;
+  }
+
+}
+
+
+
+/* Responsive PC */
+
+@media screen and (min-width: 1025px) {
+    
+  hr {
+    margin: 69px 116px 60px 231px;
+
+  }
+
+  .paragraphe {
+    
+    font-size: 26px;
+    padding-top: 31px;
+    margin-right: 70px;
+    margin-left: 4px;
+
+  }
+
+  .solved {
+
+    font-size: 25px;
+    margin-left: 10px;
+  }
+
+
+}

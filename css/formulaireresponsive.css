@@ -1,0 +1,324 @@
+
+/* responsive Mobile */
+
+@media screen and (max-width: 600px) {
+
+  .logo_header {
+    flex-wrap: nowrap;
+    align-content: space-between;
+
+  }
+
+  .navbar {
+    
+    display: none;
+
+  }
+
+  .hamburgermenu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+
+  .hamburgericon {
+    margin-right: 4vw;
+}
+
+  label[for="toggle"] {
+   
+    top: 10px;
+    right: 0;
+
+  }
+
+  .testons {
+    display: flex;
+    flex-direction: row;
+  }
+  
+
+  
+
+  .top {
+    height: 400px;
+  }
+
+  h1 {
+    margin-top: 36px;
+    font-size: 32px;
+    
+  }
+
+  h2.title {
+    margin-left: 0;
+  }
+
+  hr {
+    margin: 75px 155px 60px 123px;
+
+  }
+
+  .title {
+    text-align: center;
+
+  }
+  .commande {
+
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 54px;
+    align-content: stretch;
+
+  }
+
+  .cheesy {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+
+  }
+
+  select {
+   
+    width: 334px;
+    height: 45px;
+    margin-left: 1px;
+
+  }
+
+  h4 {
+    margin-left: 34px;
+  }
+  
+  
+  
+  .order {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: flex-start;
+
+  }
+
+  h4.cookie {
+   
+    margin-left: 85px;
+
+  }
+
+  .container-yummy {
+    flex-direction: column;
+
+  }
+
+  .beverages {
+  
+    margin-top: 59px;
+    width: 100%;
+
+  }
+
+  .dessert {
+    
+    flex-direction: column;
+    width: 100%;
+    align-content: stretch;
+    align-items: flex-start;
+  }
+
+  .boissons {
+    margin-top: 10px;
+
+  }
+
+  h5 {
+    
+    margin-left: 49px;
+    margin-top: 8px;
+
+  }
+
+  .deliver {
+  
+    flex-direction: column;
+    margin-left: 8px;
+  }
+
+  .nom_prenom {
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 35px;
+    align-items: center;
+
+  }
+
+
+
+
+  .email-tel {
+    flex-direction: column;
+    gap: 35px;
+
+  }
+
+
+  .send {
+    padding: 48px 231px 76px 6px;
+  }  
+
+
+
+}
+
+
+
+
+
+
+
+/* Responsive Tablette */
+
+
+@media screen and (max-width: 992px) {
+    
+  .top {
+    height: 500px;
+  }
+
+
+  h2.title {
+    margin-left: 32px;
+  }
+
+  hr {
+    margin: 75px 155px 60px 209px;
+
+  }
+  
+  .title {
+
+    font-size: 44px;
+    margin-top: 10px;
+    margin-left: 28px;
+
+  }
+
+  .onlytext {
+    margin-right: 369px;
+    margin-left: 20px;
+
+  }
+
+  .order {
+    margin-left: 68px;
+
+  }
+
+  h4.cookie {
+    margin-left: 88px;
+    margin-bottom: 30px;
+  }
+  .container-yummy {
+    gap: 0px;
+    margin-right: 63px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+  }
+    
+  .deliver {
+
+    gap: 28px;
+
+  }
+
+  .nom_prenom {
+
+    gap: 123px;
+  }
+
+
+  .email-tel {
+    
+    gap: 123px;
+
+  }
+
+  .send {
+
+    padding: 50px 396px 76px 6px;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+  }
+
+}
+
+
+
+
+
+
+/* Responsive PC */
+
+@media screen and (min-width: 1025px) {
+    
+  h2.title {
+    
+    margin-left: 35px;
+
+  }
+
+  hr {
+    
+    margin: 75px 155px 60px 201px;
+
+  }
+
+  .order {
+    
+    margin-left: 73px;
+
+  }
+
+  .fries {
+    
+    margin-left: 93px;
+  }
+
+  .container-yummy {
+
+    margin-right: 77px;
+  }
+
+  .nom_prenom {
+   
+    gap: 190px;
+  }
+
+  .email-tel {
+    gap: 190px;
+  }
+
+  .send {
+    padding: 50px 111px 70px 0px;
+  }
+
+
+}
+
+
+

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/formulaireresponsive.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+      <title>Bella Olonje</title>
+   </head>
+   <body>
+      <header>
+         <nav class="navbar">
+            <div class="logo_header">
+               <a href="index.html" class="logo"></a>
+               <img src="images/logo_bella_olonje.png" alt="Logo page"/>
+            </div>
+            <ul class="main_nav">
+               <li class="red"><a href="index.html" class="nav_links Big">Home</a></li>
+               <li><a href="#Pizza" class="nav_links">Pizza</a></li>
+               <li><a href="#Burgers" class="nav_links">Burgers</a></li>
+               <li><a href="#Salade" class="nav_links">Salade</a></li>
+               <li><a href="contact.html" class="nav_links">Contact</a></li>
+            </ul>
+         </nav>
+         <!-- Hamburger Menu -->
+         <div class="hamburgermenu">
+            <div class="testons">
+            <div class="logo_header">
+               <a href="index.html" class="logo"></a>
+               <img src="images/logo_bella_olonje.png" alt="Logo page"/>
+            </div>
+            <div class="hamburgericon">
+         <label for="toggle">
+            <i class="fas fa-bars hamburger"></i>
+         </label>
+      </div>
+   </div>
+         <!-- Small display Responsive Navigation begins -->
+      
+      <input type="checkbox" id="toggle" name="toggle"> 
+       <nav class="navigation--responsive">
+        
+       <ul>
+         <li class="red"><a href="index.html" class="nav_links Big">Home</a></li>
+               <li><a href="#Pizza" class="nav_links">Pizza</a></li>
+               <li><a href="#Burgers" class="nav_links">Burgers</a></li>
+               <li><a href="#Salade" class="nav_links">Salade</a></li>
+               <li><a href="contact.html" class="nav_links">Contact</a></li>
+       </ul>
+   </nav><!-- responsive nav ends-->
+</div>
+
+      </header>
+       <!-- Partie Main -->
+      <main>
+
+         <div class="top">
+            <div class="titlecontent">
+               <div class="titre1">
+                  <h4>Food app</h4>
+               </div>
+               <br>
+               <div class="titre2">
+                  <h1>Chez Bella, <br>chaque désir s'additionne.</h1>
+               </div>
+            </div>
+         </div>
+         <form>
+            <h2 class="title">Vos informations</h2>
+            <div class="deliver">
+               <div class="nom_prenom">
+                  <div class="yourlastname">
+                     <label class="lastname">Nom</label>
+                     <input class="lastname" type="text"  name="lastname" placeholder="Nom" required>
+                  </div>
+                  <div class="yourlastname">
+                     <label class="lastname">Prénom</label>
+                     <input class="lastname" type="text" name="lastname" placeholder="Prénom" required/>
+                  </div>
+               </div>
+               <div class="email-tel">
+                  <div class="yourlastname">
+                     <label class="lastname">Téléphone</label>
+                     <input class="lastname" type="text" name="lastname" placeholder="Téléphone" required>
+                  </div>
+                  <div class="yourlastname">
+                     <label class="email">E-mail</label>
+                     <input type="email" class="email" name="email" placeholder="Email" required>
+                  </div>
+               </div>
+            </div>
+         </form>
+         <br>
+         <hr>
+         <div class="commande">
+         <h2 class="title">Votre commande</h2>
+         <h5 class="onlytext">Pizza 4 Fromages</h5>
+         </div>
+         <div class="sstitre">
+         <h4 class="cookie">Suppléments</h4>
+         </div>
+         <div class="order">
+            <div class="cheesy">
+               <div class="sy">
+                  <label class="cheese">Ingredient</label>
+                  <select name="cheez" class="cheez" >
+                     <option value="fromage">Fromage</option>
+                     <option value="fromage">Fromage</option>
+                     <option value="fromage">Fromage</option>
+                     <option value="fromage">Fromage</option>
+                  </select>
+               </div>
+               <div class="quantite">
+                  <div class="sy">
+                     <label class="nombre">Quantité </label>
+                     <input type="number" value="1" min="0" max="64">
+                  </div>
+               </div>
+            </div>
+            <div class="cheesy">
+               <div class="sy">
+                  <label class="cheese">Ingredient 1</label>
+                  <select name="cheez" class="cheez" >
+                     <option value="fromage">Fromage</option>
+                     <option value="fromage">Fromage</option>
+                     <option value="fromage">Fromage</option>
+                     <option value="fromage">Fromage</option>
+                  </select>
+               </div>
+               <div class="quantite">
+                  <div class="sy">
+                     <label class="nombre">Quantité 1</label>
+                     <input type="number" value="1" min="0" max="64">
+                  </div>
+               </div>
+            </div>
+            <div class="cheesy">
+               <div class="sy">
+                  <label class="cheese">Ingredient 2</label>
+                  <select name="cheez" class="cheez" >
+                     <option value="fromage">Fromage</option>
+                     <option value="fromage">Fromage</option>
+                     <option value="fromage">Fromage</option>
+                     <option value="fromage">Fromage</option>
+                  </select>
+               </div>
+               <div class="quantite">
+                  <div class="sy">
+                     <label class="nombre">Quantité 2</label>
+                     <input type="number" value="1" min="0" max="64">
+                  </div>
+               </div>
+            </div>
+            <div class="cheesy">
+               <div class="sy">
+                  <label class="cheese">Ingredient 3</label>
+                  <select name="cheez" class="cheez" >
+                     <option value="fromage">Fromage</option>
+                     <option value="fromage">Fromage</option>
+                     <option value="fromage">Fromage</option>
+                     <option value="fromage">Fromage</option>
+                  </select>
+               </div>
+               <div class="quantite">
+                  <div class="sy">
+                     <label class="nombre">Quantité 3</label>
+                     <input type="number" value="1" min="0" max="64">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <br>
+
+         <!-- Bouton radio avec ou sans frite -->
+            <div class="fries">
+               <div class="needfries">
+               <input type="radio" name="styles" class="default" checked>
+               <label class="WFries">Avec Frite</label>
+               </div>
+               <div class="nofries">
+                  <input type="radio" name="styles" class="default">
+                  <label class="WOFries">Sans Frite</label>
+               </div>
+            </div>
+           
+        
+         <!-- Boisson & Dessert -->
+         <div class="container-yummy">
+            <div class="beverages">
+               <div class="Btitle">
+                  <h5>Boissons</h5>
+                  <div class="boissons">
+                     <div class="dropdown">
+                        <input type="checkbox" class="number" name="avec" checked>
+                        <label class="coke">Coca-Cola</label>
+                        <select name="drinks" class="drinks">
+                           <option value="number">1</option>
+                           <option value="number">2</option>
+                           <option value="number">3</option>
+                           <option value="number">4</option>
+                        </select>
+                     </div>
+                  </div>
+                  <div class="boissons">
+                     <div class="dropdown">
+                        <input type="checkbox" class="number" name="sans">
+                        <label class="coke">Fanta</label>
+                        <select name="drinks" class="drinks" >
+                           <option value="number">1</option>
+                           <option value="number">2</option>
+                           <option value="number">3</option>
+                           <option value="number">4</option>
+                        </select>
+                     </div>
+                  </div>
+                  <div class="boissons">
+                     <div class="dropdown">
+                        <input type="checkbox" class="number" name="sans">
+                        <label class="coke">L'eau</label>
+                        <select name="drinks" class="drinks" >
+                           <option value="number">1</option>
+                           <option value="number">2</option>
+                           <option value="number">3</option>
+                           <option value="number">4</option>
+                        </select>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="dessert">
+            <div class="Btitle">
+               <h5>Desserts</h5>
+               <div class="boissons">
+                  <div class="dropdown">
+                     <input type="checkbox" class="number" name="avec" checked>
+                     <label class="Tiramisu">Tiramisu</label>
+                     <select name="drinks" class="drinks" >
+                        <option value="number">1</option>
+                        <option value="number">2</option>
+                        <option value="number">3</option>
+                        <option value="number">4</option>
+                     </select>
+                  </div>
+               </div>
+               <div class="boissons">
+                  <div class="dropdown">
+                     <input type="checkbox" class="number" name="sans">
+                     <label class="Cheese-Cake">Cheese-Cake</label>
+                     <select  name="drinks" class="drinks">
+                        <option value="number">1</option>
+                        <option value="number">2</option>
+                        <option value="number">3</option>
+                        <option value="number">4</option>
+                     </select>
+                  </div>
+               </div>
+               <div class="boissons">
+                  <div class="dropdown">
+                     <input type="checkbox" class="number" name="sans">
+                     <label class="Cheese-Cake">Tarte au Fraise</label>
+                     <select  name="drinks" class="drinks">
+                        <option value="number">1</option>
+                        <option value="number">2</option>
+                        <option value="number">3</option>
+                        <option value="number">4</option>
+                     </select>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <br>
+      <hr>
+
+      <!-- Partie Adresse de Livraison -->
+
+         <form class="infoadress">
+            <h2 class="title">Adresse de livraison</h2>
+            <div class="deliver">
+               <div class="nom_prenom">
+                  <div class="yourlastname">
+                     <label class="lastname">Nom</label>
+                     <input class="lastname" type="text"  name="lastname" placeholder="Nom" required>
+                  </div>
+                  <div class="yourlastname">
+                     <label class="lastname">Prénom</label>
+                     <input class="lastname" type="text" name="lastname" placeholder="Prénom" required/>
+                  </div>
+               </div>
+               <div class="email-tel">
+                  <div class="yourlastname">
+                     <label class="lastname">Téléphone</label>
+                     <input class="lastname" type="text" name="lastname" placeholder="Téléphone" required>
+                  </div>
+                  <div class="yourlastname">
+                     <label class="email">E-mail</label>
+                     <input type="email" class="email" name="email" placeholder="Email" required>
+                  </div>
+               </div>
+               <div class="nom_prenom">
+                  <div class="yourlastname">
+                     <label class="lastname">Adresse</label>
+                     <input class="adresse" type="text" name="adresse" placeholder="Adresse" required/>
+                  </div>
+                  <div class="yourlastname">
+                     <label class=codepostal>Code postal</label>
+                     <input class=codepostal name=codepostal type=text placeholder="Code Postal" required>
+                  </div>
+               </div>
+               <div class="email-tel">
+                  <div class="yourlastname">
+                     <label class="ville">Ville</label>
+                     <input class="city" type="text" name="ville" placeholder="Ville" required/>
+                  </div>
+                  <div class="yourlastname">
+                     <label class=pays>Pays</label>
+                     <input class="pays" name=pays type=text placeholder="Pays"  required>
+                  </div>
+               </div>
+            </div>
+            <div class="send">
+               <button type="submit">Envoyer</button>
+            </div>
+         </form>
+      </main>
+   </body>
+</html>

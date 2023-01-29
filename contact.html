@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/contactresponsive.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <script src="https://www.recaptcha.net/recaptcha/api.js" async defer></script>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+      <title>Bella Olonje</title>
+   </head>
+   <body>
+      <header>
+         <nav class="navbar">
+            <div class="logo_header">
+               <a href="index.html" class="logo"></a>
+               <img src="images/logo_bella_olonje.png" alt="image logo"/>
+            </div>
+            <ul class="main_nav">
+               <li class="red"><a href="index.html" class="nav_links Big">Home</a></li>
+               <li><a href="#Pizza" class="nav_links">Pizza</a></li>
+               <li><a href="#Burgers" class="nav_links">Burgers</a></li>
+               <li><a href="#Salade" class="nav_links">Salade</a></li>
+               <li><a href="contact.html" class="nav_links">Contact</a></li>
+            </ul>
+         </nav>
+         <!-- Hamburger Menu -->
+         <div class="hamburgermenu">
+            <div class="testons">
+               <div class="logo_header">
+                  <a href="index.html" class="logo"></a>
+                  <img src="images/logo_bella_olonje.png" alt="Logo_page"/>
+               </div>
+               <div class="hamburgericon">
+                  <label for="toggle">
+                  <i class="fas fa-bars hamburger"></i>
+                  </label>
+               </div>
+            </div>
+            <!-- Small display Responsive Navigation begins -->
+            <input type="checkbox" id="toggle" name="toggle"> 
+            <nav class="navigation--responsive">
+               <ul>
+                  <li>
+                     <a href="#home">Home</a>
+                  </li>
+                  <li>
+                     <a href="#look-book">About</a>
+                  </li>
+                  <li>
+                     <a href="#contact">Contact</a>
+                  </li>
+                  <li>
+                     <a href="#blog">Blog</a>
+                  </li>
+               </ul>
+            </nav>
+            <!-- responsive nav ends-->
+         </div>
+      </header>
+      <main>
+         <div class="top">
+            <div class="titlecontent">
+               <div class="titre1">
+                  <h4>Food app</h4>
+               </div>
+               <br>
+               <div class="titre2">
+                  <h1>Chez Bella, <br>chaque désir s'additionne.</h1>
+               </div>
+            </div>
+         </div>
+         <br>
+         <form>
+            <h2 class="contactus">Nous contacter</h2>
+            <div class="deliver">
+               <div class="nom_prenom">
+                  <div class="yourlastname">
+                     <label class="lastname">Nom</label>
+                     <input type="text" id="nom"  name="lastname" placeholder="Nom" required>
+                  </div>
+                  <div class="yourlastname">
+                     <label class="lastname">Prénom</label>
+                     <input type="text" id="prenom"  name="lastname" placeholder="Prénom" required/>
+                  </div>
+               </div>
+               <div class="email-tel">
+                  <div class="yourlastname">
+                     <label class="lastname">Téléphone</label>
+                     <input type="text" id="lastname"  name="lastname" placeholder="Téléphone" required>
+                  </div>
+                  <div class="yourlastname">
+                     <label class="email">E-mail</label>
+                     <input type="email" id="email" name="email" placeholder="Email" required>
+                  </div>
+               </div>
+               <div class="nom_prenom">
+                  <div class="yourlastname">
+                     <label class="societe">Société</label>
+                     <input type="text" id="societe"  name="societe" placeholder="Société" required/>
+                  </div>
+                  <div class="yourlastname">
+                     <label class="fonction">Fonction</label>
+                     <input type="text" id="fonction" name="fonction" placeholder="Cuisinier" required>
+                  </div>
+                  </div>
+               </div>
+         </form>
+            <br>
+            <!-- Bouton upload -->
+            <div class="uploadfile">
+               <button class="btn-upload">Upload</button>
+               <input type="file" name="upfile"/>
+               <label class="file">Choose your file</label>
+            </div>
+            <!-- recapcha -->
+            <div class="recaptcha">
+               <div class="g-recaptcha" data-sitekey="6Ld_kjEkAAAAAGNQL0PIWYb0askBrS3TiWrCN1y4"></div>
+            </div>
+            <!-- objet message -->
+            <div class="sendemail">
+               <div class="objectmessage">
+                  <div class="object">
+                     <label class="objet">Objet</label>
+                        <select name="idk" class="idk">
+                           <option value="objet">objet</option>
+                           <option value="objet">objet</option>
+                           <option value="objet">objet</option>
+                           <option value="objet">objet</option>
+                        </select>
+                  </div>
+                  <div class="message">
+                  <label class="texto">Message</label>
+                  <textarea placeholder="Message"></textarea>
+               </div>
+            </div>
+         </div>
+
+            <div class="maps">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10515.327473972608!2d2.435245!3d48.7851!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67344bd2d57f1%3A0x2a84a845271b523a!2sAFPA!5e0!3m2!1sfr!2sfr!4v1674815263096!5m2!1sfr!2sfr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <br>
+            <div class="sendbtn">
+               <button type="submit">Envoyer</button>
+            </div>
+         
+      </main>
+   </body>
+</html>
